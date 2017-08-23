@@ -8,8 +8,12 @@ namespace tarefa1
 {
     class Program
     {
+        static Menu menu = new Menu();
         static void Main(string[] args)
         {
+
+            menu.Home();
+            
         }
     }
 }
